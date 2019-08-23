@@ -47,6 +47,10 @@
     'name': 'keyword.operator.awk'
   }
   {
+    'match': '\\+|-|='
+    'name': 'keyword.operator.awk'
+  }
+  {
     'match': "[=|:]"
     'name': 'punctuation.separator'
   }
@@ -84,7 +88,7 @@
           'name': 'entity.name.action.begin.awk'
         '3':
           'name': 'entity.name.action.begin.awk'
-      'end': '\}'
+      'end': '^\}'
       'endCaptures':
         '0':
           'name': 'entity.name.action.end.awk'
